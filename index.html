@@ -3,7 +3,7 @@
   <head>
     <title>Device Properties Example</title>
 
-    <script type="text/javascript" charset="utf-8" src="cordova-x.x.x.js"></script>
+    
     <script type="text/javascript" charset="utf-8">
 
     // Wait for device API libraries to load
@@ -20,6 +20,8 @@
     //
     function onSuccess(position) {
         var element = document.getElementById('geolocation');
+        
+        /*
         element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
                             'Longitude: '          + position.coords.longitude             + '<br />' +
                             'Altitude: '           + position.coords.altitude              + '<br />' +
@@ -28,6 +30,7 @@
                             'Heading: '            + position.coords.heading               + '<br />' +
                             'Speed: '              + position.coords.speed                 + '<br />' +
                             'Timestamp: '          + position.timestamp                    + '<br />';
+*/                            
     }
 
     // onError Callback receives a PositionError object
@@ -38,6 +41,7 @@
     }
 
     </script>
+    <script src="phonegap.js"></script>
   </head>
   <body>
     <p id="geolocation">Finding geolocation...</p>
