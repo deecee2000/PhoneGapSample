@@ -1,25 +1,107 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-	<title>My Page</title> 
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
-</head> 
-<body> 
+<html>
+<head>
+<title>Creating Simple jQuery Mobile Site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="gallery">
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+				<a href="#gallery" data-transition="slide" data-theme="" data-icon="home">
+				Gallery
+				</a>
+				</li>
+				<li>
+				<a href="#map" data-transition="slide" data-theme="" data-icon="info">
+				Map
+				</a>
+				</li>
+				<li>
+				<a href="#take_a_picture" data-transition="slide" data-theme="" data-icon="star">
+				Take A Picture
+				</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-<div data-role="page">
+	<div data-role="content">
+		Gallery Contents
+	</div>
+	<div data-theme="a" data-role="footer" data-position="fixed">
+		<h2> <a href="#" style="color:White; font-size:small">WatchIt App</a></h2>
+	</div>
+</div>
 
-	<div data-role="header">
-		<h1>My Title</h1>
-	</div><!-- /header -->
 
-	<div data-role="content">	
-		<p>Hello world</p>		
-	</div><!-- /content -->
+<div data-role="page" id="map">
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+				<a href="#gallery" data-transition="slide" data-theme="" data-icon="home">
+				Gallery
+				</a>
+				</li>
+				<li>
+				<a href="#map" data-transition="slide" data-theme="" data-icon="info">
+				Map
+				</a>
+				</li>
+				<li>
+				<a href="#take_a_picture" data-transition="slide" data-theme="" data-icon="star">
+				Take A Picture
+				</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-</div><!-- /page -->
+	<div data-role="content">
+		Map Contents
+	</div>
+	<div data-theme="a" data-role="footer" data-position="fixed">
+		<h2> <a href="#" style="color:White; font-size:small">WatchIt App</a></h2>
+	</div>
+</div>
+
+
+<div data-role="page" id="take_a_picture">
+	<div data-role="header" data-theme="a">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+				<a href="#gallery" data-transition="slide" data-theme="" data-icon="home">
+				Gallery
+				</a>
+				</li>
+				<li>
+				<a href="#map" data-transition="slide" data-theme="" data-icon="info">
+				Map
+				</a>
+				</li>
+				<li>
+				<a href="#take_a_picture" data-transition="slide" data-theme="" data-icon="star">
+				Take A Picture
+				</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div data-role="content">
+		Take A Picture Contents
+	</div>
+	<div data-theme="a" data-role="footer" data-position="fixed">
+		<h2> <a href="#" style="color:White; font-size:small">WatchIt App</a></h2>
+	</div>
+</div>
 
 </body>
 </html>
