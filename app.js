@@ -8,9 +8,9 @@ var homePage =
         '<div class="header"><h1>WatchIt</h1></div>' +
         '<div class="scroller">' +
             '<ul class="list">' +
-                '<li><div style="padding:20px;border-right:1px solid #7D7D7D;border-bottom:5px solid #B1CA39;"><a href="#page1"><strong>GALLERY</strong></a></div></li>' +
-                '<li><div style="padding:20px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC"><a href="#page2"><strong>MAP</strong></div></a></li>' +
-                '<li><div style="padding:20px;border-right:0px solid;border-bottom:5px solid #CCCCCC"><a href="#page3"><strong>TAKE PICTURE</strong></div></a></li>' +
+                '<li><div style="padding:14px;border-right:1px solid #7D7D7D;border-bottom:5px solid #B1CA39;"><a href="#page1"><strong>GALLERY</strong></a></div></li>' +
+                '<li><div style="padding:14px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC"><a href="#page2"><strong>MAP</strong></div></a></li>' +
+                '<li><div style="padding:14px;border-right:0px solid;border-bottom:5px solid #CCCCCC"><a href="#page3"><strong>TAKE PICTURE</strong></div></a></li>' +
             '</ul>' +
             '<div class="robot">' +
             	'Gallery Page Contents' +
@@ -23,9 +23,9 @@ var mapPage =
         '<div class="header"><h1>WatchIt</h1></div>' +
         '<div class="scroller">' +
 		    '<ul class="list">' +
-		        '<li><div style="padding:20px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC;"><a href="#page1"><strong>GALLERY</strong></a></div></li>' +
-		        '<li><div style="padding:20px;border-right:1px solid #7D7D7D;border-bottom:5px solid #B1CA39"><a href="#page2"><strong>MAP</strong></div></a></li>' +
-		        '<li><div style="padding:20px;border-right:0px solid;border-bottom:5px solid #CCCCCC"><a href="#page3"><strong>TAKE PICTURE</strong></div></a></li>' +
+		        '<li><div style="padding:14px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC;"><a href="#page1"><strong>GALLERY</strong></a></div></li>' +
+		        '<li><div style="padding:14px;border-right:1px solid #7D7D7D;border-bottom:5px solid #B1CA39"><a href="#page2"><strong>MAP</strong></div></a></li>' +
+		        '<li><div style="padding:14px;border-right:0px solid;border-bottom:5px solid #CCCCCC"><a href="#page3"><strong>TAKE PICTURE</strong></div></a></li>' +
 		    '</ul>' +
             '<div class="robot">' +
                 'MAP Page Contents' +
@@ -38,9 +38,9 @@ var takePicturePage =
         '<div class="header"><h1>WatchIt</h1></div>' +
         '<div class="scroller">' +
 		    '<ul class="list">' +
-		        '<li><div style="padding:20px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC;"><a href="#page1"><strong>GALLERY</strong></a></div></li>' +
-		        '<li><div style="padding:20px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC"><a href="#page2"><strong>MAP</strong></div></a></li>' +
-		        '<li><div style="padding:20px;border-right:0px solid;border-bottom:5px solid #B1CA39"><a href="#page3"><strong>TAKE PICTURE</strong></div></a></li>' +
+		        '<li><div style="padding:14px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC;"><a href="#page1"><strong>GALLERY</strong></a></div></li>' +
+		        '<li><div style="padding:14px;border-right:1px solid #7D7D7D;border-bottom:5px solid #CCCCCC"><a href="#page2"><strong>MAP</strong></div></a></li>' +
+		        '<li><div style="padding:14px;border-right:0px solid;border-bottom:5px solid #B1CA39"><a href="#page3"><strong>TAKE PICTURE</strong></div></a></li>' +
 		    '</ul>' +
             '<div class="robot">' +
                 'Take Picture Page Contents' +
