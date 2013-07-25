@@ -68,8 +68,14 @@ a {
 
 .list li {
     position: relative;
-    padding: 20px 10px;
-    border-bottom: 1px solid #BCBCBC;
+    
+    border-right: 0px solid #BCBCBC;
+    background:#333;
+    color:#eee;
+    float:left;
+    width:33.33%;
+    text-align:center;
+    
 }
 
 .list li > a {
@@ -79,7 +85,7 @@ a {
 }
 
 .list li > a:active {
-    background-color: #D7D7D7;
+    background-color: #fff;
 }
 
 .robot {
